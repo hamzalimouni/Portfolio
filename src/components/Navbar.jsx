@@ -62,7 +62,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
