@@ -5,27 +5,27 @@ export const projects = [
   {
     id: 1,
     img: {p1},
-    link: "http://lama.dev",
+    link: "#",
   },
   {
     id: 2,
     img: {p1},
-    link: "http://lama.dev",
+    link: "#",
   },
   {
     id: 3,
     img: {p1},
-    link: "http://lama.dev",
+    link: "#",
   },
   {
     id: 4,
     img: {p1},
-    link: "http://lama.dev",
+    link: "#",
   },
   {
     id: 5,
     img: {p1},
-    link: "http://lama.dev",
+    link: "#",
   },
   {
     id: 6,
