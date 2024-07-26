@@ -30,6 +30,6 @@ export const projects = [
   {
     id: 6,
     img: {p1},
-    link: "http://lama.dev",
+    link: "#",
   },
 ];
