@@ -29,6 +29,7 @@ import {
   symfony,
   php,
   scss,
+  atypikhouse,
 } from "../assets";
 
 export const navLinks = [
@@ -226,7 +227,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Atypik House",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -243,7 +244,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: atypikhouse,
     source_code_link: "https://github.com/",
   },
   {
