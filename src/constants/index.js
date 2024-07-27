@@ -27,6 +27,8 @@ import {
   github,
   githubBlack,
   symfony,
+  php,
+  scss,
 } from "../assets";
 
 export const navLinks = [
@@ -93,6 +95,10 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Scss",
+    icon: scss,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -119,6 +125,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "php",
+    icon: php,
   },
   {
     name: "symfony",

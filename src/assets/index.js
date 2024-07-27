@@ -24,6 +24,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import githubBlack from "./tech/github.png";
 import symfony from "./tech/symfony.png";
+import php from "./tech/php.png";
+import scss from "./tech/scss.png";
 
 // Experience
 import oncf from "./company/oncf.png";
@@ -68,4 +70,6 @@ export {
   ml2m,
   githubBlack,
   symfony,
+  php,
+  scss
 };
