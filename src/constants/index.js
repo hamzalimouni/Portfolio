@@ -16,15 +16,15 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
   oncf,
-  ocp
+  ocp,
+  f2i,
+  dsp,
 } from "../assets";
 
 export const navLinks = [
@@ -140,7 +140,7 @@ const experiences = [
   {
     title: "Développeur Full Stack - Projet de Fin d'Année",
     company_name: "Institut F2I, Paris",
-    icon: shopify,
+    icon: f2i,
     iconBg: "#383E56",
     date: "Janvier 2022 - Janvier 2023",
     points: [
@@ -152,7 +152,7 @@ const experiences = [
   {
     title: "Ingénieur DevOps - Projet de Fin d'Études",
     company_name: "DSP, Paris",
-    icon: meta,
+    icon: dsp,
     iconBg: "#E6DEDD",
     date: "Février 2023 - Avril 2024",
     points: [

@@ -23,6 +23,9 @@ import threejs from "./tech/threejs.svg";
 
 import oncf from "./company/oncf.png";
 import ocp from "./company/ocp.png";
+import f2i from "./company/f2i.png";
+import dsp from "./company/dsp.png";
+import ml2m from "./company/ml2m.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -63,4 +66,6 @@ export {
   tripguide,
   oncf,
   ocp,
+  f2i,
+  dsp,
 };
