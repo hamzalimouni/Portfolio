@@ -24,6 +24,9 @@ import {
   f2i,
   dsp,
   ml2m,
+  github,
+  githubBlack,
+  symfony,
 } from "../assets";
 
 export const navLinks = [
@@ -106,12 +109,20 @@ const technologies = [
     icon: git,
   },
   {
+    name: "github",
+    icon: githubBlack,
+  },
+  {
     name: "figma",
     icon: figma,
   },
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "symfony",
+    icon: symfony,
   },
 ];
 

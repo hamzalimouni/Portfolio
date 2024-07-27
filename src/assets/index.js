@@ -22,6 +22,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import githubBlack from "./tech/github.png";
+import symfony from "./tech/symfony.png";
 
 // Experience
 import oncf from "./company/oncf.png";
@@ -64,4 +66,6 @@ export {
   f2i,
   dsp,
   ml2m,
+  githubBlack,
+  symfony,
 };
