@@ -15,8 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  shopify,
   carrent,
   jobit,
   tripguide,
