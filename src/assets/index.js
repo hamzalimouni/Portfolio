@@ -23,6 +23,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+// Experience
 import oncf from "./company/oncf.png";
 import ocp from "./company/ocp.png";
 import f2i from "./company/f2i.png";
