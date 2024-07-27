@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  oncf,
+  ocp
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +120,7 @@ const experiences = [
   {
     title: "Développeur Full Stack",
     company_name: "ONCF, Maroc",
-    icon: starbucks,
+    icon: oncf,
     iconBg: "#383E56",
     date: "Avril 2020 - Septembre 2020",
     points: [
@@ -128,7 +130,7 @@ const experiences = [
   {
     title: "Développeur Front-End",
     company_name: "OCP, Maroc",
-    icon: tesla,
+    icon: ocp,
     iconBg: "#E6DEDD",
     date: "Juin 2021 - Octobre 2021",
     points: [
