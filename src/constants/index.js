@@ -25,6 +25,7 @@ import {
   ocp,
   f2i,
   dsp,
+  ml2m,
 } from "../assets";
 
 export const navLinks = [
@@ -164,7 +165,7 @@ const experiences = [
   {
     title: "Développeur Full Stack - En Alternance",
     company_name: "Ml2m Consulting, Saint-Maurice",
-    icon: meta,
+    icon: ml2m,
     iconBg: "#E6DEDD",
     date: "Mars 2023 - Août 2024",
     points: [
