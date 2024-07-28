@@ -35,6 +35,9 @@ import dsp from "./company/dsp.png";
 import ml2m from "./company/ml2m.svg";
 
 import atypikhouse from "./atypikhouse.png";
+import assaintmaurice from "./as-saintmaurice.png";
+import novea from "./novea.png";
+import dadiffusion from "./dadiffusion.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -74,4 +77,7 @@ export {
   php,
   scss,
   atypikhouse,
+  assaintmaurice,
+  novea,
+  dadiffusion
 };

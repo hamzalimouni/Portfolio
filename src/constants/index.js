@@ -24,7 +24,6 @@ import {
   f2i,
   dsp,
   ml2m,
-  github,
   githubBlack,
   symfony,
   php,
@@ -229,23 +228,23 @@ const projects = [
   {
     name: "Atypik House",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Atypikhouse est une application permettant de louer des logements insolites, elle a été développée en utilisant les frameworks Symfony et React, et intègre Stripe pour les paiements en ligne.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "symfony",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: atypikhouse,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/hamzalimouni/atypikhouse-client.git",
   },
   {
     name: "Job IT",
