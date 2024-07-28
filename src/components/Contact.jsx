@@ -16,8 +16,24 @@ const Contact = () => {
     email: "",
     message: "",
   });
-
+  const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
+
+  const validateForm = (form) => {
+    let errors = {};
+    if (!form.name.trim()) {
+      errors.name = "Le champ 'Nom, prénom' est requis. Veuillez entrer votre nom complet.";
+    }
+    if (!form.email.trim()) {
+      errors.email = "Le champ 'Adresse e-mail' est requis. Veuillez entrer une adresse e-mail valide.";
+    } else if (!/\S+@\S+\.\S+/.test(form.email)) {
+      errors.email = "L'adresse e-mail fournie ne semble pas valide. Veuillez vérifier le format de votre adresse e-mail.";
+    }
+    if (!form.message.trim()) {
+      errors.message = "Le champ 'Message' est requis. Veuillez entrer un message pour que nous puissions vous répondre.";
+    }
+    return errors;
+  };
 
   const handleChange = (e) => {
     const { target } = e;
@@ -27,12 +43,25 @@ const Contact = () => {
       ...form,
       [name]: value,
     });
+
+    if (errors[name]) {
+      setErrors({
+        ...errors,
+        [name]: null
+      });
+    }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
+    const validationErrors = validateForm(form);
 
+    if (Object.keys(validationErrors).length > 0) {
+      setErrors(validationErrors);
+      return;
+    }
+
+    setLoading(true);
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -51,11 +80,11 @@ const Contact = () => {
           setLoading(false);
           // alert("Thank you. I will get back to you as soon as possible.");
           Swal.fire({
-            title: 'Thank you',
-            text: 'I will get back to you as soon as possible.',
+            title: 'Message envoyé',
+            text: 'Merci pour votre message. Je reviendrai vers vous dans les plus brefs délais.',
             icon: 'success',
-            confirmButtonText: 'OK',
-            confirmButtonColor: '#222',
+            confirmButtonText: 'D\'accord',
+            confirmButtonColor: '#151030',
           });
 
           setForm({
@@ -68,7 +97,14 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          // alert("Ahh, something went wrong. Please try again.");
+          Swal.fire({
+            title: 'Erreur',
+            text: 'Une erreur est survenue lors de l\'envoi du message. Veuillez réessayer plus tard ou contacter directement à l\'adresse suivante : elyamounihamza1@gmail.com.',
+            icon: 'error',
+            confirmButtonText: 'D\'accord',
+            confirmButtonColor: '#d33',
+          });
         }
       );
   };
@@ -104,8 +140,9 @@ const Contact = () => {
               onChange={handleChange}
               // placeholder="What's your good name?"
               placeholder="Quel est votre nom, prénom?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none font-medium ${errors.name ? '!border-2 border-red-500' : 'border-none'}`}
             />
+              {errors.name && <p className="text-red-500 text-[12px] mt-1">{errors.name}</p>}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>
@@ -119,8 +156,9 @@ const Contact = () => {
               onChange={handleChange}
               // placeholder="What's your web address?"
               placeholder="Quelle est votre adresse e-mail?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none font-medium ${errors.email ? '!border-2 border-red-500' : 'border-none'}`}
             />
+              {errors.email && <p className="text-red-500 text-[12px] mt-1">{errors.email}</p>}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>
@@ -134,8 +172,9 @@ const Contact = () => {
               onChange={handleChange}
               // placeholder='What you want to say?'
               placeholder='Que voulez-vous dire?'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none font-medium ${errors.message ? '!border-2 border-red-500' : 'border-none'}`}
             />
+              {errors.message && <p className="text-red-500 text-[12px] mt-1">{errors.message}</p>}
           </label>
 
           <button
