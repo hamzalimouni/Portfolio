@@ -38,6 +38,10 @@ import atypikhouse from "./atypikhouse.png";
 import assaintmaurice from "./as-saintmaurice.png";
 import novea from "./novea.png";
 import dadiffusion from "./dadiffusion.png";
+import ecommerce from "./ecommerce.png";
+import cbssocial from "./cbssocial.png";
+import wedding from "./wedding.png";
+import thetiptop from "./thetiptop.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -79,5 +83,9 @@ export {
   atypikhouse,
   assaintmaurice,
   novea,
-  dadiffusion
+  dadiffusion,
+  ecommerce,
+  cbssocial,
+  wedding,
+  thetiptop,
 };

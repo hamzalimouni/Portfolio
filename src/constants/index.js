@@ -15,9 +15,6 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   oncf,
   ocp,
@@ -29,6 +26,13 @@ import {
   php,
   scss,
   atypikhouse,
+  assaintmaurice,
+  novea,
+  dadiffusion,
+  ecommerce,
+  cbssocial,
+  wedding,
+  thetiptop,
 } from "../assets";
 
 export const navLinks = [
@@ -226,7 +230,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Atypik House",
+    name: "AtypikHouse",
     description:
       "Atypikhouse est une application permettant de louer des logements insolites, elle a été développée en utilisant les frameworks Symfony et React, et intègre Stripe pour les paiements en ligne.",
     tags: [
@@ -247,7 +251,7 @@ const projects = [
     source_code_link: "https://github.com/hamzalimouni/atypikhouse-client.git",
   },
   {
-    name: "Job IT",
+    name: "Dadiffusion",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -256,7 +260,49 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "symfony",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dadiffusion,
+    source_code_link: "https://commandes.dadiffusion.fr",
+  },
+  {
+    name: "As Saint-Maurice",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: assaintmaurice,
+    source_code_link: "https://as-saintmaurice.fr",
+  },
+  {
+    name: "Novea France",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js",
         color: "green-text-gradient",
       },
       {
@@ -264,29 +310,92 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: novea,
+    source_code_link: "https://crm-novea.fr",
   },
   {
-    name: "Trip Guide",
+    name: "E-commerce",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "node js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/hamzalimouni/Ecommerce-1.git",
+  },
+  {
+    name: "Cbs Social",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node symfony",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cbssocial,
+    source_code_link: "https://github.com",
+  },
+  {
+    name: "Wedding",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wedding,
+    source_code_link: "https://github.com",
+  },
+  {
+    name: "Thé tiptop",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thetiptop,
+    source_code_link: "https://github.com/hamzalimouni/thetiptop.git",
   },
 ];
 
