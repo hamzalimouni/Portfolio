@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import Swal from 'sweetalert2';
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -47,7 +49,14 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          // alert("Thank you. I will get back to you as soon as possible.");
+          Swal.fire({
+            title: 'Thank you',
+            text: 'I will get back to you as soon as possible.',
+            icon: 'success',
+            confirmButtonText: 'OK',
+            confirmButtonColor: '#222',
+          });
 
           setForm({
             name: "",

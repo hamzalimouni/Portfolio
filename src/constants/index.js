@@ -204,7 +204,8 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    "Je pensais qu'il était impossible de créer un site web aussi beau que notre produit, mais Hamza m'a prouvé le contraire.",
+      // "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -212,7 +213,8 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    "Je n'ai jamais rencontré de développeur web qui se soucie autant du succès de ses clients que Hamza.",
+      // "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -220,7 +222,8 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    "Après que Rick ait optimisé notre site web, notre trafic a augmenté de 50%. Nous ne pourrons jamais le remercier assez !",
+      // "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -251,9 +254,72 @@ const projects = [
     source_code_link: "https://github.com/hamzalimouni/atypikhouse-client.git",
   },
   {
+    name: "Thé tiptop",
+    description:
+      "Thé Tip Top est une application de jeu-concours permettant aux clients de participer via un code unique reçu lors d'un achat, développée avec React et Node.js, et utilisant Tailwind CSS pour le design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thetiptop,
+    source_code_link: "https://github.com/hamzalimouni/thetiptop.git",
+  },
+  {
+    name: "Wedding Memories",
+    description:
+      "Wedding Memories est une application permettant aux invités de partager des photos et vidéos de mariage avec le couple, développée avec React et Node.js, et utilisant Tailwind CSS pour le design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wedding,
+    source_code_link: "https://github.com",
+  },
+  {
+    name: "E-commerce",
+    description:
+      "E-commerce est une application de commerce en ligne permettant aux utilisateurs de parcourir, rechercher et acheter des produits en ligne, développée avec React et Node.js, et utilisant SCSS pour le design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://github.com/hamzalimouni/Ecommerce-1.git",
+  },
+  {
     name: "Dadiffusion",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Un site de commande en ligne moderne et efficace permettant aux utilisateurs de parcourir, rechercher et acheter des produits et un suivi de commande. développée avec React et Symfony, et utilisant Tailwind Css pour le design.",
     tags: [
       {
         name: "react",
@@ -314,27 +380,6 @@ const projects = [
     source_code_link: "https://crm-novea.fr",
   },
   {
-    name: "E-commerce",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ecommerce,
-    source_code_link: "https://github.com/hamzalimouni/Ecommerce-1.git",
-  },
-  {
     name: "Cbs Social",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -353,49 +398,7 @@ const projects = [
       },
     ],
     image: cbssocial,
-    source_code_link: "https://github.com",
-  },
-  {
-    name: "Wedding",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: wedding,
-    source_code_link: "https://github.com",
-  },
-  {
-    name: "Thé tiptop",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: thetiptop,
-    source_code_link: "https://github.com/hamzalimouni/thetiptop.git",
+    source_code_link: "http://social.sascbs.com/login",
   },
 ];
 
