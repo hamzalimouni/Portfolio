@@ -72,7 +72,7 @@ const Works = () => {
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>
           {/* My work */}
-          Moon Travail
+          Mon Travail
         </p>
         <h2 className={`${styles.sectionHeadText}`}>Projets.</h2>
       </motion.div>

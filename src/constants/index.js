@@ -222,7 +222,7 @@ const testimonials = [
   },
   {
     testimonial:
-    "Après que Rick ait optimisé notre site web, notre trafic a augmenté de 50%. Nous ne pourrons jamais le remercier assez !",
+    "Après que Hamza ait optimisé notre site web, notre trafic a augmenté de 50%. Nous ne pourrons jamais le remercier assez !",
       // "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
@@ -277,7 +277,7 @@ const projects = [
   {
     name: "Wedding Memories",
     description:
-      "Wedding Memories est une application permettant aux invités de partager des photos et vidéos de mariage avec le couple, développée avec React et Node.js, et utilisant Tailwind CSS pour le design.",
+      "Wedding Memories est une application permettant aux invités de partager des photos et vidéos de mariages, développée avec React et Node.js, et utilisant Tailwind CSS pour le design.",
     tags: [
       {
         name: "react",
@@ -319,7 +319,7 @@ const projects = [
   {
     name: "Dadiffusion",
     description:
-      "Un site de commande en ligne moderne et efficace permettant aux utilisateurs de parcourir, rechercher et acheter des produits et un suivi de commande. développée avec React et Symfony, et utilisant Tailwind Css pour le design.",
+      "Un site de commande en ligne moderne et efficace permettant aux utilisateurs de parcourir, rechercher et acheter des produits ainsi que de suivre leurs commandes. Développée avec React et Symfony, et utilisant Tailwind Css pour le design.",
     tags: [
       {
         name: "react",
@@ -338,9 +338,9 @@ const projects = [
     source_code_link: "https://commandes.dadiffusion.fr",
   },
   {
-    name: "As Saint-Maurice",
+    name: "AS Saint-Maurice",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Une plateforme qui permet aux utilisateurs d'inscrire leur(s) enfant(s) au club de football AS Saint-Maurice et suivre leur dossier, jusqu'à ce qu'il soit accepté par les administrateurs. Développée avec React et Node, et utilisant Bootstrap pour le design.",
     tags: [
       {
         name: "react",
