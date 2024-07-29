@@ -38,11 +38,18 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    // title: "About",
+    title: "À propos",
   },
   {
     id: "work",
-    title: "Work",
+    // title: "Work",
+    title: "Expériences",
+  },
+  {
+    id: "projects",
+    // title: "Projects",
+    title: "Projets",
   },
   {
     id: "contact",
@@ -247,7 +254,7 @@ const projects = [
       },
       {
         name: "bootstrap",
-        color: "pink-text-gradient",
+        color: "indigo-text-gradient",
       },
     ],
     image: atypikhouse,
@@ -268,7 +275,7 @@ const projects = [
       },
       {
         name: "tailwind css",
-        color: "pink-text-gradient",
+        color: "indigo-text-gradient",
       },
     ],
     image: thetiptop,
@@ -289,7 +296,7 @@ const projects = [
       },
       {
         name: "tailwind css",
-        color: "pink-text-gradient",
+        color: "indigo-text-gradient",
       },
     ],
     image: wedding,
@@ -331,7 +338,7 @@ const projects = [
       },
       {
         name: "tailwind css",
-        color: "pink-text-gradient",
+        color: "indigo-text-gradient",
       },
     ],
     image: dadiffusion,
@@ -352,7 +359,7 @@ const projects = [
       },
       {
         name: "bootstrap",
-        color: "pink-text-gradient",
+        color: "indigo-text-gradient",
       },
     ],
     image: assaintmaurice,
@@ -389,12 +396,12 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Symfony",
+        name: "symfony",
         color: "green-text-gradient",
       },
       {
         name: "tailwind css",
-        color: "pink-text-gradient",
+        color: "indigo-text-gradient",
       },
     ],
     image: cbssocial,
