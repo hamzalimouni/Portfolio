@@ -358,38 +358,38 @@ const projects = [
     image: assaintmaurice,
     source_code_link: "https://as-saintmaurice.fr",
   },
-  {
-    name: "Novea France",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: novea,
-    source_code_link: "https://crm-novea.fr",
-  },
+  // {
+  //   name: "Novea France",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "node js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: novea,
+  //   source_code_link: "https://crm-novea.fr",
+  // },
   {
     name: "Cbs Social",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Cbs Social est un site web de gestion des ressources humaines. Il a été développé en utilisant les frameworks React et Symfony, et en utilisant Tailwind CSS pour le design.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "node symfony",
+        name: "Symfony",
         color: "green-text-gradient",
       },
       {
