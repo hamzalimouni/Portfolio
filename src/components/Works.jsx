@@ -1,4 +1,8 @@
+import { useState } from "react";
 import styled from "styled-components";
+import WebDesign from "./WebDesign";
+import Development from "./Development";
+import ProductDesign from "./ProductDesign";
 
 const data = ["Web Design", "Development", "Illustration", "Product Design", "Social Media"];
 
@@ -10,7 +14,7 @@ const Section = styled.section`
 `;
 
 const Container = styled.div`
-    width: 1200px;
+    width: 1400px;
     scroll-snap-align: center;
     display: flex;
     justify-content: space-between;
@@ -66,19 +70,20 @@ const Right = styled.div`
 `;
 
 const Works = () => {
+    const [work, setWork] = useState("Web Design");
     return (
         <Section>
             <Container>
                 <Left>
                     <List>
                         {data.map((item, i) => (
-                            <ListItem key={i} text={item}>
+                            <ListItem key={i} text={item} onClick={() => setWork(item)}>
                                 {item}
                             </ListItem>
                         ))}
                     </List>
                 </Left>
-                <Right>{/* Add content for the right side here */}</Right>
+                <Right>{work === "Web Design" ? <WebDesign /> : work === "Development" ? <Development /> : <ProductDesign />}</Right>
             </Container>
         </Section>
     );

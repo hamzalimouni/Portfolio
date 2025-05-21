@@ -6,7 +6,7 @@ const Section = styled.nav`
 `;
 
 const Container = styled.div`
-    width: 1200px;
+    width: 1400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +33,6 @@ const ListItem = styled.li`
     cursor: pointer;
 `;
 
-
 const Icons = styled.div`
     display: flex;
     align-items: center;
@@ -48,7 +47,7 @@ const Icon = styled.img`
 const Button = styled.button`
     width: 100px;
     padding: 10px;
-    background-color: #DA4EA2;
+    background-color: #da4ea2;
     color: white;
     border: none;
     border-radius: 5px;
@@ -74,7 +73,7 @@ const Navbar = () => {
                 </Icons>
             </Container>
         </Section>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;

@@ -64,11 +64,19 @@ const Right = styled.div`
 `;
 
 const Contact = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const formData = new FormData(e.target);
+        const data = Object.fromEntries(formData.entries());
+        console.log(data);
+        // Here you can handle the form submission, e.g., send data to an API or you can use EmailJS
+    };
+
     return (
         <Section>
             <Container>
                 <Left>
-                    <Form>
+                    <Form onSubmit={handleSubmit}>
                         <Title>Contact Us</Title>
                         <Input type="text" placeholder="Name" />
                         <Input type="email" placeholder="Email" />

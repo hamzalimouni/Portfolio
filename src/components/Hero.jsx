@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import Navbar from "./Navbar";
+import { Canvas } from "@react-three/fiber";
+import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
 
 const Section = styled.section`
     height: 100vh;
@@ -13,7 +15,7 @@ const Section = styled.section`
 const Container = styled.div`
     height: 100%;
     scroll-snap-align: center;
-    width: 1200px;
+    width: 1400px;
     display: flex;
     justify-content: space-between;
 `;
@@ -98,6 +100,14 @@ const Hero = () => {
                     <Button>Learn more</Button>
                 </Left>
                 <Right>
+                    <Canvas camera={{ fov: 25, position: [5, 5, 5] }}>
+                        <OrbitControls enableZoom={false} />
+                        <ambientLight intensity={1} />
+                        <directionalLight position={[3, 2, 1]} />
+                        <Sphere args={[1, 100, 200]} scale={1.5}>
+                            <MeshDistortMaterial color="#220736" attach="material" distort={0.5} speed={2} />
+                        </Sphere>
+                    </Canvas>
                     <Img src="./img/moon.png" alt="hero image" />
                 </Right>
             </Container>

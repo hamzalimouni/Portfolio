@@ -1,4 +1,7 @@
+import { OrbitControls } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 import styled from "styled-components";
+import Cube from "./Cube";
 
 const Section = styled.section`
     height: 100vh;
@@ -10,7 +13,7 @@ const Section = styled.section`
 const Container = styled.div`
     height: 100%;
     scroll-snap-align: center;
-    width: 1200px;
+    width: 1400px;
     display: flex;
     justify-content: space-between;
 `;
@@ -57,7 +60,7 @@ const Button = styled.button`
     background-color: #da4ea2;
     color: white;
     font-weight: 500;
-    width: 100px;
+    width: 120px;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -68,7 +71,14 @@ const Who = () => {
     return (
         <Section>
             <Container>
-                <Left>3d</Left>
+                <Left>
+                    <Canvas camera={{ fov: 25, position: [5, 5, 5] }}>
+                        <OrbitControls enableZoom={false} autoRotate={true} />
+                        <ambientLight intensity={1} />
+                        <directionalLight position={[3, 2, 1]} />
+                        <Cube />
+                    </Canvas>
+                </Left>
                 <Right>
                     <Title>Think outside the square space</Title>
                     <WhatWeDo>
