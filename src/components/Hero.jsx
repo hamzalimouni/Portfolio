@@ -11,7 +11,7 @@ const Section = styled.section`
 `;
 
 const Container = styled.div`
-    height: 100vh;
+    height: 100%;
     scroll-snap-align: center;
     width: 1200px;
     display: flex;
@@ -98,7 +98,7 @@ const Hero = () => {
                     <Button>Learn more</Button>
                 </Left>
                 <Right>
-                    <Img src="./img/moon.png" alt="hero" />
+                    <Img src="./img/moon.png" alt="hero image" />
                 </Right>
             </Container>
         </Section>
