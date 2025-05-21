@@ -7,6 +7,7 @@ import Works from './components/Works.jsx'
 const Container = styled.div`
   height: 100vh;
   color: white;
+  background: url("./img/bg.jpeg");
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-y: auto;
