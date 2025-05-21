@@ -33,6 +33,8 @@ import {
   cbssocial,
   wedding,
   thetiptop,
+  tybeau,
+  depanizy,
 } from "../assets";
 
 export const navLinks = [
@@ -129,55 +131,50 @@ const technologies = [
     name: "github",
     icon: githubBlack,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "php",
-    icon: php,
-  },
-  {
-    name: "symfony",
-    icon: symfony,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+  // {
+  //   name: "php",
+  //   icon: php,
+  // },
+  // {
+  //   name: "symfony",
+  //   icon: symfony,
+  // },
 ];
 
 const experiences = [
   {
-    title: "Développeur Full Stack",
-    company_name: "ONCF, Maroc",
-    icon: oncf,
-    iconBg: "#383E56",
-    date: "Avril 2020 - Septembre 2020",
-    points: [
-      "Développement d'une application web de gestion des factures.",
-    ],
-  },
-  {
-    title: "Développeur Front-End",
-    company_name: "OCP, Maroc",
-    icon: ocp,
+    title: "Développeur Full Stack - En Cdi",
+    company_name: "Depanizy, La courneuve",
+    icon: depanizy,
     iconBg: "#E6DEDD",
-    date: "Juin 2021 - Octobre 2021",
+    date: "Août 2024 - Avril 2025",
     points: [
-      "Développement d'une application web de gestion des ressources humaines.",
+      "Développement et déploiement d'applications web et mobiles.",
+      "Maintenance et mise à jour de sites web existants avec de nouvelles fonctionnalités.",
+      "Optimisation et résolution des bugs sur les plateformes web en production.",
+      "Collaboration avec les équipes pour améliorer l’expérience utilisateur et la performance des applications web.",
     ],
   },
   {
-    title: "Développeur Full Stack - Projet de Fin d'Année",
-    company_name: "Institut F2I, Paris",
-    icon: f2i,
-    iconBg: "#383E56",
-    date: "Janvier 2022 - Janvier 2023",
+    title: "Développeur Full Stack - En Alternance",
+    company_name: "Ml2m Consulting, Saint-Maurice",
+    icon: ml2m,
+    iconBg: "#E6DEDD",
+    date: "Mars 2023 - Août 2024",
     points: [
-      "Analyse et conception : UML.",
-      "Développement d'applications web et mobile pour une agence de location d'habitats insolites.",
-      "Tester et Mise en production.",
+      "Assurer les évolutions et la maintenance des applications existantes.",
+      "Participer à la structuration des bases de données MySql.",
+      "Tester et configurer le serveur, mettre en ligne le site.",
+      "Gestion des bugs et des correctifs à apporter.",
+      "Développer des API REST.",
     ],
   },
   {
@@ -193,17 +190,35 @@ const experiences = [
     ],
   },
   {
-    title: "Développeur Full Stack - En Alternance",
-    company_name: "Ml2m Consulting, Saint-Maurice",
-    icon: ml2m,
-    iconBg: "#E6DEDD",
-    date: "Mars 2023 - Août 2024",
+    title: "Développeur Full Stack - Projet de Fin d'Année",
+    company_name: "Institut F2I, Paris",
+    icon: f2i,
+    iconBg: "#383E56",
+    date: "Janvier 2022 - Janvier 2023",
     points: [
-      "Assurer les évolutions et la maintenance des applications existantes.",
-      "Participer à la structuration des bases de données MySql.",
-      "Tester et configurer le serveur, mettre en ligne le site.",
-      "Gestion des bugs et des correctifs à apporter.",
-      "Développer des API REST.",
+      "Analyse et conception : UML.",
+      "Développement d'applications web et mobile pour une agence de location d'habitats insolites.",
+      "Tester et Mise en production.",
+    ],
+  },
+  {
+    title: "Développeur Front-End",
+    company_name: "OCP, Maroc",
+    icon: ocp,
+    iconBg: "#E6DEDD",
+    date: "Juin 2021 - Octobre 2021",
+    points: [
+      "Développement d'une application web de gestion des ressources humaines.",
+    ],
+  },
+  {
+    title: "Développeur Full Stack",
+    company_name: "ONCF, Maroc",
+    icon: oncf,
+    iconBg: "#383E56",
+    date: "Avril 2020 - Septembre 2020",
+    points: [
+      "Développement d'une application web de gestion des factures.",
     ],
   },
 ];
@@ -303,6 +318,27 @@ const projects = [
     source_code_link: "https://github.com",
   },
   {
+    name: "Cbs Social",
+    description:
+      "Cbs Social est un site web de gestion des ressources humaines. Il a été développé en utilisant les frameworks React et Symfony, et en utilisant Tailwind CSS pour le design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "symfony",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "indigo-text-gradient",
+      },
+    ],
+    image: cbssocial,
+    source_code_link: "http://social.sascbs.com/login",
+  },
+  {
     name: "E-commerce",
     description:
       "E-commerce est une application de commerce en ligne permettant aux utilisateurs de parcourir, rechercher et acheter des produits en ligne, développée avec React et Node.js, et utilisant SCSS pour le design.",
@@ -365,48 +401,36 @@ const projects = [
     image: assaintmaurice,
     source_code_link: "https://as-saintmaurice.fr",
   },
-  // {
-  //   name: "Novea France",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "node js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: novea,
-  //   source_code_link: "https://crm-novea.fr",
-  // },
   {
-    name: "Cbs Social",
+    name: "Tybeau",
     description:
-      "Cbs Social est un site web de gestion des ressources humaines. Il a été développé en utilisant les frameworks React et Symfony, et en utilisant Tailwind CSS pour le design.",
+      "Tybeau est une plateforme de prise de rendez-vous instantanée avec des professionnels de la beauté. Développée avec React, Next.js, et Node.js, elle intègre Stripe pour le paiement, SMSMode pour l'envoi de SMS, Amazon SES pour les e-mails, et DocuSign pour la signature de contrats.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "symfony",
+        name: "next.js",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
         name: "tailwind css",
         color: "indigo-text-gradient",
       },
+      {
+        name: "postgresql",
+        color: "orange-text-gradient",
+      },
     ],
-    image: cbssocial,
-    source_code_link: "http://social.sascbs.com/login",
+    image: tybeau,
+    source_code_link: "https://tybeau.com",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

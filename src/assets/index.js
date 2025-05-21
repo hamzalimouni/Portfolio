@@ -33,6 +33,7 @@ import ocp from "./company/ocp.png";
 import f2i from "./company/f2i.png";
 import dsp from "./company/dsp.png";
 import ml2m from "./company/ml2m.svg";
+import depanizy from "./company/depanizy.png";
 
 import atypikhouse from "./atypikhouse.png";
 import assaintmaurice from "./as-saintmaurice.png";
@@ -45,6 +46,7 @@ import thetiptop from "./thetiptop.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tybeau from "./tybeau.png";
 
 export {
   logo,
@@ -88,4 +90,6 @@ export {
   cbssocial,
   wedding,
   thetiptop,
+  tybeau,
+  depanizy,
 };
