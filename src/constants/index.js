@@ -155,7 +155,7 @@ const experiences = [
     company_name: "Depanizy, La courneuve",
     icon: depanizy,
     iconBg: "#E6DEDD",
-    date: "Août 2024 - Avril 2025",
+    date: "08/2024 - 04/2025",
     points: [
       "Développement et déploiement d'applications web et mobiles.",
       "Maintenance et mise à jour de sites web existants avec de nouvelles fonctionnalités.",
@@ -168,7 +168,7 @@ const experiences = [
     company_name: "Ml2m Consulting, Saint-Maurice",
     icon: ml2m,
     iconBg: "#E6DEDD",
-    date: "Mars 2023 - Août 2024",
+    date: "03/2022 - 08/2024",
     points: [
       "Assurer les évolutions et la maintenance des applications existantes.",
       "Participer à la structuration des bases de données MySql.",
@@ -182,7 +182,7 @@ const experiences = [
     company_name: "DSP, Paris",
     icon: dsp,
     iconBg: "#E6DEDD",
-    date: "Février 2023 - Avril 2024",
+    date: "03/2023 - 03/2024",
     points: [
       "Développement et déploiement d'un workflow d'intégration et de déploiement continu (CI/CD) avec Docker, Jenkins et Gitea.",
       "Automatisation des processus de construction, de test et de déploiement pour garantir l'efficacité et la fiabilité des applications web.",
@@ -194,7 +194,7 @@ const experiences = [
     company_name: "Institut F2I, Paris",
     icon: f2i,
     iconBg: "#383E56",
-    date: "Janvier 2022 - Janvier 2023",
+    date: "01/2022 - 01/2023",
     points: [
       "Analyse et conception : UML.",
       "Développement d'applications web et mobile pour une agence de location d'habitats insolites.",
@@ -206,7 +206,7 @@ const experiences = [
     company_name: "OCP, Maroc",
     icon: ocp,
     iconBg: "#E6DEDD",
-    date: "Juin 2021 - Octobre 2021",
+    date: "06/2021 - 10/2021",
     points: [
       "Développement d'une application web de gestion des ressources humaines.",
     ],
@@ -216,7 +216,7 @@ const experiences = [
     company_name: "ONCF, Maroc",
     icon: oncf,
     iconBg: "#383E56",
-    date: "Avril 2020 - Septembre 2020",
+    date: "04/2020 - 09/2020",
     points: [
       "Développement d'une application web de gestion des factures.",
     ],
