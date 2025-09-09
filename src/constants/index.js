@@ -155,7 +155,7 @@ const experiences = [
     company_name: "Depanizy, La courneuve",
     icon: depanizy,
     iconBg: "#E6DEDD",
-    date: "08/2024 - 04/2025",
+    date: "08/2024 - 07/2025",
     points: [
       "Développement et déploiement d'applications web et mobiles.",
       "Maintenance et mise à jour de sites web existants avec de nouvelles fonctionnalités.",
